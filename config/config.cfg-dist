@@ -1,0 +1,21 @@
+[sftp_connection]
+sftp_login = xxxx
+sftp_host = xxxx
+sftp_input_dir = /home
+sftp_output_dir = /home/archive/
+sftp_key_path = /opt/sftp/config/key.txt
+
+[mail_config]
+mail_host = xxxx
+mail_user = xxxx
+mail_pass = xxxx
+mail_from = adres@jakis.skad
+mail_smtp_port_tls = 587
+mail_smtp_port_ssl = 465
+mail_user_domain = 0101@anydomain.com
+mail_subject = Powiadomienie z serwera z plikami mpkow
+mail_content = W zalaczniku jakas tresc
+
+[local_settings]
+local_dir = /opt/sftp/tmp
+mpk_file_name_separator = _

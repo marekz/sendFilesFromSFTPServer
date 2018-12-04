@@ -1,0 +1,9 @@
+tmp/
+.idea
+__pycache__/
+*.pyc
+venv
+venv/
+config/config.cfg
+config/key.txt.cfg
+config/key.txt
